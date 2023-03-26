@@ -7,6 +7,9 @@ A collection of TDD Kata Exercises created in Typescript and tested with Jest
 - ### [Project Setup](SETUP.md)
 
 ## What is TDD?
+#### From [What is Test-Driven Development](https://testdriven.io/test-driven-development/)
+
+"Test-Driven Development (TDD) is a methodology in software development that focuses on an iterative development cycle where the emphasis is placed on writing test cases before the actual feature or function is written. TDD utilizes repetition of short development cycles. It combines building and testing. This process not only helps ensure correctness of the code -- but also helps to indirectly evolve the design and architecture of the project at hand."
 
 ## Why is TDD Valuable?
 - Helps to better understand the problem statement
