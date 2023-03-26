@@ -85,8 +85,8 @@ Continue working through each step until the created function passes all tests a
 - [Bowling Game](src/katas/bowlinggame/README.md)
 
 ### Sample Solutions
-Solutions and sample test suites for each kata exercise are included in the Solutions directory.
-Try the kata exercises first. No peeking!
+Step-by-Step solutions for each kata exercise are included in the Solutions directory.
+Try the kata exercise first on your own or use the solutions as a step-by-step guide. 
 
 ### Ping Pong Pair Katas
 Try these kata exercises in pairs. 
