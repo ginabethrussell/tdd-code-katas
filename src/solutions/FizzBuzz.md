@@ -168,7 +168,7 @@ const fizzbuzz = (input: number) => {
 // fizzbuzz.test.ts
 
 describe("FizzBuzz Test Suite", () => {
-  it("should return the input if the input is not 3", () => {
+  it("should return the input if the input is not 3 or 5", () => {
     expect(fizzbuzz(1)).toStrictEqual(1);
     expect(fizzbuzz(2)).toStrictEqual(2);
     expect(fizzbuzz(4)).toStrictEqual(4);
@@ -201,7 +201,7 @@ const fizzbuzz = (input: number) => {
 // fizzbuzz.test.ts
 
 describe("FizzBuzz Test Suite", () => {
-  it("should return the input if the input is not 3", () => {
+  it("should return the input if the input is not 3, 5, or 6", () => {
     expect(fizzbuzz(1)).toStrictEqual(1);
     expect(fizzbuzz(2)).toStrictEqual(2);
     expect(fizzbuzz(4)).toStrictEqual(4);
@@ -237,7 +237,7 @@ const fizzbuzz = (input: number) => {
 // fizzbuzz.test.ts
 
 describe("FizzBuzz Test Suite", () => {
-  it("should return the input if the input is not 3", () => {
+  it("should return the input if the input is not 3, 5, 6, or 9", () => {
     expect(fizzbuzz(1)).toStrictEqual(1);
     expect(fizzbuzz(2)).toStrictEqual(2);
     expect(fizzbuzz(4)).toStrictEqual(4);
@@ -276,7 +276,7 @@ const fizzbuzz = (input: number) => {
 // fizzbuzz.test.ts
 
 describe("FizzBuzz Test Suite", () => {
-  it("should return the input if the input is not 3", () => {
+  it("should return the input if the input is not 3, 5, 6, 9, or 10", () => {
     expect(fizzbuzz(1)).toStrictEqual(1);
     expect(fizzbuzz(2)).toStrictEqual(2);
     expect(fizzbuzz(4)).toStrictEqual(4);
@@ -338,6 +338,7 @@ describe("FizzBuzz Test Suite", () => {
 
  ```ts 
 // fizzbuzz.ts
+// hint: use the [remainder operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
 const fizzbuzz = (input: number) => {
   if (input % 5 === 0) return "Buzz";
@@ -431,7 +432,7 @@ const fizzbuzz = (input: number) => {
 
 ```
 
-24. Refactor - at this point we are starting to see our last pattern. If the input is a multiple of 15 we are returning "FizzBuzz". To make this better reflect our constraints, we can write this as if the input is a multiple of 3 and the input is a multiple of 5. Let's stop and refactor our tests and function. Rerun our tests with `yarn test` after the refactor to make sure nothing is broken.
+24. Refactor - at this point we are starting to see our last pattern. If the input is a multiple of 15 we are returning "FizzBuzz". To make this better reflect our constraints, we can write this as - if the input is a multiple of 3 and the input is a multiple of 5. Let's stop and refactor our tests and function. Rerun our tests with `yarn test` after the refactor to make sure nothing is broken.
 
 ```ts
 // fizzbuzz.test.ts
